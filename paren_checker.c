@@ -14,14 +14,18 @@ int is_close(char ch);
 
 int main() {
 	char expr[MAX_LENGTH];
+	
+	printf("커밋메시지");
 	scanf("%s", expr);
+
 	if (is_balanced(expr))
 		printf("%s: balanced.\n", expr);
 	else
 		printf("%s: unbalanced.\n", expr);
 
-	return 0;
+	
 
+	return 0;
 }
 
 int is_balanced(char* expr) {
