@@ -15,7 +15,6 @@ int is_close(char ch);
 int main() {
 	char expr[MAX_LENGTH];
 	
-	printf("커밋메시지");
 	scanf("%s", expr);
 
 	if (is_balanced(expr))
